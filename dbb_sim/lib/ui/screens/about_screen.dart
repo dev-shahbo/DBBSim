@@ -69,24 +69,24 @@ class AboutScreen extends StatelessWidget {
             title: 'How to Use',
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
-                _InstructionItem(
+              children: [
+                const _InstructionItem(
                   number: '1',
                   text: 'Connect to a BLE balance device from the Devices screen',
                 ),
-                _InstructionItem(
+                const _InstructionItem(
                   number: '2',
                   text: 'Switch to "Live BLE" mode to receive real tilt data',
                 ),
-                _InstructionItem(
+                const _InstructionItem(
                   number: '3',
                   text: 'Use "Manual" mode to simulate tilt by dragging the dot',
                 ),
-                _InstructionItem(
+                const _InstructionItem(
                   number: '4',
                   text: 'Start a session to track your balance metrics',
                 ),
-                _InstructionItem(
+                const _InstructionItem(
                   number: '5',
                   text: 'View session summary to analyze performance',
                 ),

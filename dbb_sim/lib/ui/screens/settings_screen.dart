@@ -112,9 +112,9 @@ class SettingsScreen extends StatelessWidget {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
-                        Text('0%'),
-                        Text('100%'),
+                      children: [
+                        const Text('0%'),
+                        const Text('100%'),
                       ],
                     ),
                   ],
