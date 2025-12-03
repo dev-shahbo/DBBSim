@@ -1,0 +1,26 @@
+name: dbb_sim
+description: DBBSim - Balance Desk Simulator Flutter App that visualizes and simulates 2D tilt/position on a square desk and communicates over BLE.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_blue_plus: ^1.32.12
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
